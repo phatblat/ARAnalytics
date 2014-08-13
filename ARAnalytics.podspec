@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   umeng          = { :spec_name => "UMengAnalytics",   :dependency => "UMengAnalytics" }
   
   librato        = { :spec_name => "Librato" }
-  crashlytics    = { :spec_name => "Crashlytics" }
+  crashlytics    = { :spec_name => "Crashlytics",      :dependency => "CrashlyticsFramework" }
 
   kissmetrics_mac = { :spec_name => "KISSmetricsOSX",  :dependency => "KISSmetrics",            :osx => true,  :provider => "KISSmetrics" }
 #  countly_mac     = { :spec_name => "CountlyOSX",      :dependency => "Countly",                :osx => true,  :provider => "Countly" }
